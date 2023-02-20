@@ -1,0 +1,7 @@
+.currency select {
+    border-radius: 5px;
+    border: 2px solid #b5b5b5;
+    
+    margin-right: 20px;
+    padding: 5px;
+}
