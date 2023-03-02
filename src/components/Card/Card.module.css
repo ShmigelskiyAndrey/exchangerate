@@ -1,0 +1,8 @@
+.container {
+    font-size: 30px;
+    border: black solid 1px;
+    margin: 0 20px;
+
+    text-align: center;
+    padding: 10px;
+}

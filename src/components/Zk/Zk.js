@@ -11,11 +11,11 @@ export default function Zk() {
   return (
     <Section title={"Zk"}>
       <Card
-        value={dataUSD && dataUSD[0]?.exchangeRate}
+        //value={dataUSD && dataUSD[0]?.exchangeRate}
+        value={Math.round(dataUSD && dataUSD[0]?.exchangeRate * 100) / 100}
         pending={pendingUSD}
         currencyName={"$"}
       />
-      <Card />
     </Section>
   );
 }
